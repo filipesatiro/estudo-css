@@ -1,0 +1,11 @@
+        body {
+            background-color: rgba(53, 78, 78, 0.719);
+        }
+        h1 {
+            color: blue;
+            font-size: 88px;
+        }
+        h2 {
+            color: red;
+            font-size: 44px;
+        }
