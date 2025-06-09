@@ -1,2 +1,10 @@
-# estudo-css
-Aprendendo um pouco sobre design com CSS
+Aprendendo um pouco sobre design com CSS.
+
+ Estudos realizados
+
+- Seletores e classes
+- CSS inline, interno e externo
+- Propriedade `color`
+- Propriedade `background` e uso de imagens de fundo
+
+
