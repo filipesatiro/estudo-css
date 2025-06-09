@@ -1,0 +1,21 @@
+body {
+    background-color: blueviolet;
+}
+h1 {
+    text-align: center;
+    letter-spacing: 4px;
+}
+p {
+    color: black;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 50px;
+    line-height: 1.1;
+    word-spacing: 10px;
+   
+}
+a {
+    color: white;
+    text-decoration: none;
+}
