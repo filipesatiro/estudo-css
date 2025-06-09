@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    background: black;
+    text-align: center;
+    color: rgb(136, 68, 68);
+    border: 5px solid black;
+    border-radius: 50px;
+}
+p {
+    color: brown;
+    border-left: 1px dashed black;
+    border-top: 1px dashed rgb(196, 84, 196);
+    border-right: 3px solid rgb(14, 170, 27);
+    border-bottom: 3px solid rgb(47, 219, 182);
+}
