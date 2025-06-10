@@ -1,0 +1,31 @@
+.borda {
+    border: 1px solid rgb(0, 0, 0);
+}
+li {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+}
+.azul {
+    background: blue;
+}
+.vermelho {
+    background: red;
+}
+.verde {
+    background: green;
+}
+.amarelo {
+    background: yellow;
+}
+.roxo {
+    background: purple;
+}
+h1 {
+    height: 150px;
+}
+div {
+    display: inline-block;
+    width: 33%;
+    height: 150px;
+}
