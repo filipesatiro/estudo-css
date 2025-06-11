@@ -1,0 +1,12 @@
+#titulo {
+    background: blue;  /* Id é mais importante que classe */
+}
+.red {
+    background: red; /* Classe é mais importante que tag */
+}
+h1 {
+    background: yellow;  /* Tag é menos importante que id e classe */
+}
+h1.red {
+    background: green; 
+}
