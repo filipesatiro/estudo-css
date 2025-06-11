@@ -3,18 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/propriedade-max-widht.css">
+    <link rel="stylesheet" href="css/propriedade-position.css">
     <title>Estudando CSS</title>
 </head>
 <body>
-    <div class="exemplo1">
-        Conteudo com 800px de Largura
-
+    <div class="container">
+        <img src="img/pexels-apasaric-325185.jpg" alt="cidade">
+        <div class="centro"><h1>Titulo do meu artigo</h1></div>
     </div>
-    <br>
-    <div class="exemplo2">
-        Conteudo com 800px de Largura    
-
+    <h2>Propriedade CSS: position</h2>
+    <p>A propriedade <strong>position</strong> no CSS define como um elemento é posicionado na página. Ela permite controlar o fluxo e a sobreposição dos elementos no layout.</p>
+    <p>Os valores mais comuns para <code>position</code> são:</p>
+    <ul>
+        <li><strong>static</strong>: Padrão. O elemento segue o fluxo normal do documento.</li>
+        <li><strong>relative</strong>: O elemento é posicionado em relação à sua posição original.</li>
+        <li><strong>absolute</strong>: O elemento é posicionado em relação ao ancestral mais próximo que não seja <code>static</code>.</li>
+        <li><strong>fixed</strong>: O elemento é posicionado em relação à janela de visualização (viewport), permanecendo fixo durante a rolagem.</li>
+        <li><strong>sticky</strong>: O elemento alterna entre <code>relative</code> e <code>fixed</code> dependendo da rolagem.</li>
+    </ul>
+    <p>Além disso, propriedades como <code>top</code>, <code>right</code>, <code>bottom</code> e <code>left</code> podem ser usadas junto com <code>position</code> para definir a posição exata do elemento.</p>
+    <p>Exemplo:</p>
+    <pre><code>.exemplo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}</code></pre>
+    <p>Utilize a propriedade <strong>position</strong> para criar layouts mais flexíveis e controlar o empilhamento de elementos na sua página.</p>
+    <div class="whats">
+        whats
     </div>
     <p><a href="outra-pagina.html">Ir para Outra Página</a></p>
 </body>
