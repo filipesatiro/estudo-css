@@ -1,0 +1,11 @@
+/*Regra do Importante*/
+
+#meuid {
+    color: red;
+}
+.minhaclasse {
+    color: blue !important; /* Esta regra é importante e será aplicada mesmo que outras regras tenham maior especificidade */
+}
+h1 {
+    color: green !important;
+}
